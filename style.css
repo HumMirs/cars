@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+#sedan_cars,
+#off_road_cars,
+#van_cars {
+    width: 30%;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 30px 50px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#main_container {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner-container {
+    width: 32%;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin: 0.6%;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: brown;
+    text-align: center;
+    padding: 10px;
+}
+
+.inner-container:hover {
+    box-shadow: 0 0 15px 6px brown;
+}
+
+.inner-container img {
+    width: 70%;
+    height: 50%;
+    border-radius: 50px;
+}
+
+.inner-container h2 {
+    margin: 10px;
+    color: white;
+}
+
+.inner-container h3 {
+    margin: 10px;
+    color: white;
+}
+
+.inner-container p {
+    font-weight: bold;
+    font-size: 22px;
+}
