@@ -9,7 +9,7 @@ sedan_cars.onclick = () => {
   main_container.innerHTML = "";
 
   const request = new XMLHttpRequest();
-  request.open("GET", "http://localhost:3000/cars");
+  request.open("GET", "n");
   request.onload = () => {
     cars = JSON.parse(request.responseText);
 
